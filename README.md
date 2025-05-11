@@ -48,3 +48,33 @@ Requirement Analysis involves several critical activities that ensure the softwa
 - **Review and Approval**: Conducting reviews with stakeholders to confirm the documented requirements are accurate and complete.
 - **Acceptance Criteria**: Defining measurable standards that requirements must meet to be accepted.
 - **Traceability**: Linking each requirement to its origin and ensuring it is addressed throughout development and testing.
+
+## Types of Requirements
+
+In software engineering, requirements are generally categorized into two broad types: Functional and Non-functional. Both are essential for building a complete and successful system.
+
+### Functional Requirements
+
+Functional requirements define what the system should do — the specific behaviors, features, and functions that must be implemented.
+
+**Examples for the Airbnb Booking Management System:**
+
+- **User Registration & Login**: Users must be able to create an account, log in, and manage their profile.
+- **Search Listings**: Users should be able to search for accommodations based on filters such as location, price, and availability.
+- **Booking Management**: Users must be able to book available listings and view or cancel their bookings.
+- **Payment Integration**: The system should allow users to pay securely using various payment methods like credit card, PayPal, or mobile money.
+- **Host Dashboard**: Hosts should be able to list their properties, set availability, pricing, and manage incoming booking requests.
+- **Notifications**: Both hosts and guests should receive confirmation emails or push notifications upon successful booking, cancellation, or payment.
+
+### Non-functional Requirements
+
+Non-functional requirements specify how the system performs its functions. These are often related to system attributes such as performance, usability, reliability, and security.
+
+**Examples for the Airbnb Booking Management System:**
+
+- **Performance**: The system should be able to handle up to 10,000 concurrent users without degradation in response time.
+- **Availability**: The platform must be available 99.9% of the time (excluding scheduled maintenance).
+- **Usability**: The user interface should be intuitive and mobile-friendly for ease of use by a global audience.
+- **Security**: User data must be encrypted at rest and in transit. Authentication should follow OAuth 2.0 standards.
+- **Scalability**: The application should be able to scale horizontally to accommodate an increasing number of listings and bookings.
+- **Compliance**: The system must comply with GDPR and other regional data protection regulations.
