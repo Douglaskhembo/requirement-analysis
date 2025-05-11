@@ -78,3 +78,36 @@ Non-functional requirements specify how the system performs its functions. These
 - **Security**: User data must be encrypted at rest and in transit. Authentication should follow OAuth 2.0 standards.
 - **Scalability**: The application should be able to scale horizontally to accommodate an increasing number of listings and bookings.
 - **Compliance**: The system must comply with GDPR and other regional data protection regulations.
+
+
+## Acceptance Criteria
+Acceptance Criteria are specific, clear, and testable conditions that a software product must satisfy to be accepted by the client or end-user. They serve as a contract between stakeholders and developers, ensuring everyone has a shared understanding of what "done" means for a particular feature or requirement.
+
+## Why Acceptance Criteria Are Important
+- Clarify Requirements: Define exactly what needs to be delivered.
+
+- Guide Testing: Provide the foundation for user acceptance testing (UAT).
+
+- Improve Communication: Align expectations between business and technical teams.
+
+- Ensure Quality: Reduce ambiguity and rework by making requirements measurable.
+
+Example: Acceptance Criteria for the Checkout Feature
+Feature: Checkout from Booking System
+
+Acceptance Criteria:
+
+The user must be logged in to proceed with checkout.
+
+The checkout page must display the booking summary, including property details, dates, and total cost.
+
+The user must be able to enter or select a saved payment method.
+
+The system must validate the payment method before processing.
+
+Upon successful payment, a confirmation message with a unique booking ID should be displayed.
+
+The booking record must be saved in the system and visible in the user’s booking history.
+
+The host should receive a notification upon successful booking.
+
