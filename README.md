@@ -95,6 +95,25 @@ Acceptance Criteria are specific, clear, and testable conditions that a software
 Example: Acceptance Criteria for the Checkout Feature
 Feature: Checkout from Booking System
 
+## Use Case Diagrams
+
+### What are Use Case Diagrams?
+
+Use Case Diagrams are visual representations that show the interactions between different actors (users or external systems) and the system. They illustrate what functionalities the system offers to each actor and how these actors interact with the system to achieve their goals.
+
+### Benefits of Use Case Diagrams:
+- **Clarifies system functionality**: Helps stakeholders visualize how users interact with the system.
+- **Identifies system scope**: Clearly defines which system functionalities are part of the scope.
+- **Helps in requirement gathering**: Useful during the requirement analysis phase to ensure all system functionalities are captured.
+- **Facilitates communication**: Makes it easier for both technical and non-technical stakeholders to understand system requirements.
+
+### Booking System Use Case Diagram
+
+Here is the use case diagram for the booking system:
+
+![Booking System Use Case Diagram](alx-booking-uc.png)
+
+
 Acceptance Criteria:
 
 The user must be logged in to proceed with checkout.
